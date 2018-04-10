@@ -14,8 +14,20 @@
 		05B4777F207BBA8700801E1C /* ComposingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B4777E207BBA8700801E1C /* ComposingViewModel.swift */; };
 		05B47782207BBACF00801E1C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B47781207BBACF00801E1C /* BaseViewController.swift */; };
 		05B47784207BBAFE00801E1C /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B47783207BBAFE00801E1C /* BaseViewModel.swift */; };
+		05B4778C207BC8AF00801E1C /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B4778B207BC8AF00801E1C /* Result.swift */; };
+		05B47796207BD72300801E1C /* TwitSplitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B47795207BD72300801E1C /* TwitSplitTests.swift */; };
 		6F5C0A7657738B14BA91448F /* Pods_TwitSplit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43AADEFA6AE597CDE5481E35 /* Pods_TwitSplit.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05B47798207BD72300801E1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05B4775E207BB9E000801E1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05B47765207BB9E000801E1C;
+			remoteInfo = TwitSplit;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		05B47766207BB9E000801E1C /* TwitSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -27,6 +39,10 @@
 		05B4777E207BBA8700801E1C /* ComposingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposingViewModel.swift; sourceTree = "<group>"; };
 		05B47781207BBACF00801E1C /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		05B47783207BBAFE00801E1C /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		05B4778B207BC8AF00801E1C /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		05B47793207BD72200801E1C /* TwitSplitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitSplitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05B47795207BD72300801E1C /* TwitSplitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitSplitTests.swift; sourceTree = "<group>"; };
+		05B47797207BD72300801E1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43AADEFA6AE597CDE5481E35 /* Pods_TwitSplit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitSplit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7834545E3D7C3D6F49797E0E /* Pods-TwitSplit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitSplit.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwitSplit/Pods-TwitSplit.release.xcconfig"; sourceTree = "<group>"; };
 		AA7C7EA8942131D16904AA06 /* Pods-TwitSplit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitSplit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwitSplit/Pods-TwitSplit.debug.xcconfig"; sourceTree = "<group>"; };
@@ -41,6 +57,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		05B47790207BD72200801E1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -48,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				05B47768207BB9E000801E1C /* TwitSplit */,
+				05B47794207BD72300801E1C /* TwitSplitTests */,
 				05B47767207BB9E000801E1C /* Products */,
 				294819F52CCA79B5FC5A3F96 /* Pods */,
 				0D40FBB016BFDAD230D4EE00 /* Frameworks */,
@@ -58,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				05B47766207BB9E000801E1C /* TwitSplit.app */,
+				05B47793207BD72200801E1C /* TwitSplitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,6 +90,7 @@
 		05B47768207BB9E000801E1C /* TwitSplit */ = {
 			isa = PBXGroup;
 			children = (
+				05B47789207BC88900801E1C /* Core */,
 				05B4777B207BB9F300801E1C /* App */,
 				05B47769207BB9E000801E1C /* AppDelegate.swift */,
 				05B47770207BB9E000801E1C /* Assets.xcassets */,
@@ -117,6 +143,31 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		05B47789207BC88900801E1C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				05B4778A207BC89300801E1C /* Models */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		05B4778A207BC89300801E1C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				05B4778B207BC8AF00801E1C /* Result.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		05B47794207BD72300801E1C /* TwitSplitTests */ = {
+			isa = PBXGroup;
+			children = (
+				05B47795207BD72300801E1C /* TwitSplitTests.swift */,
+				05B47797207BD72300801E1C /* Info.plist */,
+			);
+			path = TwitSplitTests;
+			sourceTree = "<group>";
+		};
 		0D40FBB016BFDAD230D4EE00 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +207,24 @@
 			productReference = 05B47766207BB9E000801E1C /* TwitSplit.app */;
 			productType = "com.apple.product-type.application";
 		};
+		05B47792207BD72200801E1C /* TwitSplitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05B4779A207BD72300801E1C /* Build configuration list for PBXNativeTarget "TwitSplitTests" */;
+			buildPhases = (
+				05B4778F207BD72200801E1C /* Sources */,
+				05B47790207BD72200801E1C /* Frameworks */,
+				05B47791207BD72200801E1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05B47799207BD72300801E1C /* PBXTargetDependency */,
+			);
+			name = TwitSplitTests;
+			productName = TwitSplitTests;
+			productReference = 05B47793207BD72200801E1C /* TwitSplitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -169,6 +238,11 @@
 					05B47765207BB9E000801E1C = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+					};
+					05B47792207BD72200801E1C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 05B47765207BB9E000801E1C;
 					};
 				};
 			};
@@ -186,6 +260,7 @@
 			projectRoot = "";
 			targets = (
 				05B47765207BB9E000801E1C /* TwitSplit */,
+				05B47792207BD72200801E1C /* TwitSplitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -200,6 +275,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		05B47791207BD72200801E1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -210,11 +292,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TwitSplit/Pods-TwitSplit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
@@ -248,6 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05B4778C207BC8AF00801E1C /* Result.swift in Sources */,
 				05B47782207BBACF00801E1C /* BaseViewController.swift in Sources */,
 				05B4777D207BBA7900801E1C /* ComposingViewController.swift in Sources */,
 				05B4777F207BBA8700801E1C /* ComposingViewModel.swift in Sources */,
@@ -256,7 +341,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		05B4778F207BD72200801E1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05B47796207BD72300801E1C /* TwitSplitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05B47799207BD72300801E1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05B47765207BB9E000801E1C /* TwitSplit */;
+			targetProxy = 05B47798207BD72300801E1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		05B47772207BB9E000801E1C /* LaunchScreen.storyboard */ = {
@@ -409,6 +510,38 @@
 			};
 			name = Release;
 		};
+		05B4779B207BD72300801E1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D5SZ9A5H3;
+				INFOPLIST_FILE = TwitSplitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LinhLe.TwitSplitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwitSplit.app/TwitSplit";
+			};
+			name = Debug;
+		};
+		05B4779C207BD72300801E1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D5SZ9A5H3;
+				INFOPLIST_FILE = TwitSplitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LinhLe.TwitSplitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwitSplit.app/TwitSplit";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -426,6 +559,15 @@
 			buildConfigurations = (
 				05B47779207BB9E000801E1C /* Debug */,
 				05B4777A207BB9E000801E1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05B4779A207BD72300801E1C /* Build configuration list for PBXNativeTarget "TwitSplitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05B4779B207BD72300801E1C /* Debug */,
+				05B4779C207BD72300801E1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
