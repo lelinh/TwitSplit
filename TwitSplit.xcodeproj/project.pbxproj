@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0519CD90207E66340098DD3B /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0519CD8F207E66340098DD3B /* NSDateExtension.swift */; };
+		0542A6D3207E8ECF003DB672 /* UserDefaultsUlities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0542A6D2207E8ECF003DB672 /* UserDefaultsUlities.swift */; };
+		0542A6D5207E90E2003DB672 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0542A6D4207E90E2003DB672 /* Tweet.swift */; };
+		0542A6D7207F1E40003DB672 /* TwitterSplitMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0542A6D6207F1E40003DB672 /* TwitterSplitMessage.swift */; };
+		0554A22F207CAFDA00264B9D /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0554A22E207CAFDA00264B9D /* UIColorExtension.swift */; };
+		0554A231207DCAC200264B9D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0554A230207DCAC200264B9D /* Constants.swift */; };
+		0554A233207DCE4D00264B9D /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0554A232207DCE4D00264B9D /* ComposeView.swift */; };
+		0554A237207DE25D00264B9D /* NSAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0554A236207DE25D00264B9D /* NSAttributedStringExtension.swift */; };
+		0554A239207DE59700264B9D /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0554A238207DE59700264B9D /* AvatarView.swift */; };
 		05B4776A207BB9E000801E1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B47769207BB9E000801E1C /* AppDelegate.swift */; };
 		05B47771207BB9E000801E1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05B47770207BB9E000801E1C /* Assets.xcassets */; };
 		05B47774207BB9E000801E1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05B47772207BB9E000801E1C /* LaunchScreen.storyboard */; };
@@ -16,6 +25,12 @@
 		05B47784207BBAFE00801E1C /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B47783207BBAFE00801E1C /* BaseViewModel.swift */; };
 		05B4778C207BC8AF00801E1C /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B4778B207BC8AF00801E1C /* Result.swift */; };
 		05B47796207BD72300801E1C /* TwitSplitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B47795207BD72300801E1C /* TwitSplitTests.swift */; };
+		05B6BF18207E3DAD002C4730 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B6BF17207E3DAD002C4730 /* HomeViewController.swift */; };
+		05B6BF1B207E3F58002C4730 /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B6BF1A207E3F58002C4730 /* TweetTableViewCell.swift */; };
+		05B6BF1D207E441B002C4730 /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B6BF1C207E441B002C4730 /* NSObjectExtension.swift */; };
+		05B6BF1F207E459B002C4730 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B6BF1E207E459B002C4730 /* HomeViewModel.swift */; };
+		05B6BF21207E5F0B002C4730 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B6BF20207E5F0B002C4730 /* AppFont.swift */; };
+		05DB3B08207E05CE0077A762 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DB3B07207E05CE0077A762 /* BaseView.swift */; };
 		6F5C0A7657738B14BA91448F /* Pods_TwitSplit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43AADEFA6AE597CDE5481E35 /* Pods_TwitSplit.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0519CD8F207E66340098DD3B /* NSDateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSDateExtension.swift; sourceTree = "<group>"; };
+		0542A6D2207E8ECF003DB672 /* UserDefaultsUlities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsUlities.swift; sourceTree = "<group>"; };
+		0542A6D4207E90E2003DB672 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		0542A6D6207F1E40003DB672 /* TwitterSplitMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterSplitMessage.swift; sourceTree = "<group>"; };
+		0554A22E207CAFDA00264B9D /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		0554A230207DCAC200264B9D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0554A232207DCE4D00264B9D /* ComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeView.swift; sourceTree = "<group>"; };
+		0554A236207DE25D00264B9D /* NSAttributedStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtension.swift; sourceTree = "<group>"; };
+		0554A238207DE59700264B9D /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
 		05B47766207BB9E000801E1C /* TwitSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05B47769207BB9E000801E1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05B47770207BB9E000801E1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,6 +67,12 @@
 		05B47793207BD72200801E1C /* TwitSplitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitSplitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05B47795207BD72300801E1C /* TwitSplitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitSplitTests.swift; sourceTree = "<group>"; };
 		05B47797207BD72300801E1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05B6BF17207E3DAD002C4730 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		05B6BF1A207E3F58002C4730 /* TweetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
+		05B6BF1C207E441B002C4730 /* NSObjectExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
+		05B6BF1E207E459B002C4730 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		05B6BF20207E5F0B002C4730 /* AppFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFont.swift; sourceTree = "<group>"; };
+		05DB3B07207E05CE0077A762 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		43AADEFA6AE597CDE5481E35 /* Pods_TwitSplit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitSplit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7834545E3D7C3D6F49797E0E /* Pods-TwitSplit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitSplit.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwitSplit/Pods-TwitSplit.release.xcconfig"; sourceTree = "<group>"; };
 		AA7C7EA8942131D16904AA06 /* Pods-TwitSplit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitSplit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwitSplit/Pods-TwitSplit.debug.xcconfig"; sourceTree = "<group>"; };
@@ -67,6 +97,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0554A22D207CAFC100264B9D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0554A22E207CAFDA00264B9D /* UIColorExtension.swift */,
+				0554A230207DCAC200264B9D /* Constants.swift */,
+				0554A236207DE25D00264B9D /* NSAttributedStringExtension.swift */,
+				05B6BF20207E5F0B002C4730 /* AppFont.swift */,
+				05B6BF1C207E441B002C4730 /* NSObjectExtension.swift */,
+				0519CD8F207E66340098DD3B /* NSDateExtension.swift */,
+				0542A6D2207E8ECF003DB672 /* UserDefaultsUlities.swift */,
+				0542A6D6207F1E40003DB672 /* TwitterSplitMessage.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		05B4775D207BB9E000801E1C = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +135,7 @@
 		05B47768207BB9E000801E1C /* TwitSplit */ = {
 			isa = PBXGroup;
 			children = (
+				0554A22D207CAFC100264B9D /* Utilities */,
 				05B47789207BC88900801E1C /* Core */,
 				05B4777B207BB9F300801E1C /* App */,
 				05B47769207BB9E000801E1C /* AppDelegate.swift */,
@@ -114,6 +160,7 @@
 		05B47780207BBAB200801E1C /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				05DB3B07207E05CE0077A762 /* BaseView.swift */,
 				05B47781207BBACF00801E1C /* BaseViewController.swift */,
 				05B47783207BBAFE00801E1C /* BaseViewModel.swift */,
 			);
@@ -124,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				05B4777C207BBA7900801E1C /* ComposingViewController.swift */,
+				05B6BF17207E3DAD002C4730 /* HomeViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -132,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				05B4777E207BBA8700801E1C /* ComposingViewModel.swift */,
+				05B6BF1E207E459B002C4730 /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -139,6 +188,9 @@
 		05B47787207BBBC700801E1C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				05B6BF19207E3E60002C4730 /* Cells */,
+				0554A232207DCE4D00264B9D /* ComposeView.swift */,
+				0554A238207DE59700264B9D /* AvatarView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -155,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				05B4778B207BC8AF00801E1C /* Result.swift */,
+				0542A6D4207E90E2003DB672 /* Tweet.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -166,6 +219,14 @@
 				05B47797207BD72300801E1C /* Info.plist */,
 			);
 			path = TwitSplitTests;
+			sourceTree = "<group>";
+		};
+		05B6BF19207E3E60002C4730 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				05B6BF1A207E3F58002C4730 /* TweetTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		0D40FBB016BFDAD230D4EE00 /* Frameworks */ = {
@@ -292,13 +353,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TwitSplit/Pods-TwitSplit-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
@@ -332,12 +393,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0554A22F207CAFDA00264B9D /* UIColorExtension.swift in Sources */,
+				05B6BF1D207E441B002C4730 /* NSObjectExtension.swift in Sources */,
 				05B4778C207BC8AF00801E1C /* Result.swift in Sources */,
+				0542A6D5207E90E2003DB672 /* Tweet.swift in Sources */,
+				05B6BF1F207E459B002C4730 /* HomeViewModel.swift in Sources */,
 				05B47782207BBACF00801E1C /* BaseViewController.swift in Sources */,
+				05DB3B08207E05CE0077A762 /* BaseView.swift in Sources */,
+				0519CD90207E66340098DD3B /* NSDateExtension.swift in Sources */,
+				0554A233207DCE4D00264B9D /* ComposeView.swift in Sources */,
+				0554A239207DE59700264B9D /* AvatarView.swift in Sources */,
 				05B4777D207BBA7900801E1C /* ComposingViewController.swift in Sources */,
+				0554A237207DE25D00264B9D /* NSAttributedStringExtension.swift in Sources */,
+				0542A6D7207F1E40003DB672 /* TwitterSplitMessage.swift in Sources */,
 				05B4777F207BBA8700801E1C /* ComposingViewModel.swift in Sources */,
 				05B4776A207BB9E000801E1C /* AppDelegate.swift in Sources */,
 				05B47784207BBAFE00801E1C /* BaseViewModel.swift in Sources */,
+				05B6BF21207E5F0B002C4730 /* AppFont.swift in Sources */,
+				05B6BF18207E3DAD002C4730 /* HomeViewController.swift in Sources */,
+				0554A231207DCAC200264B9D /* Constants.swift in Sources */,
+				0542A6D3207E8ECF003DB672 /* UserDefaultsUlities.swift in Sources */,
+				05B6BF1B207E3F58002C4730 /* TweetTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

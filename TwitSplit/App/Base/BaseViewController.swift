@@ -26,4 +26,35 @@ class BaseViewController: UIViewController {
         alert.addAction(UIAlertAction(title: "Close", style: UIAlertActionStyle.default, handler: nil))
         self.present(alert, animated: true, completion: nil)
     }
+    
+    func setLeftButton(image: UIImage) {
+        let icon = image.withRenderingMode(.alwaysOriginal)
+        let leftButton = UIBarButtonItem.init(image: icon, style: .plain, target: self, action: #selector(self.leftButtonHandle))
+        leftButton.width = 50
+        self.navigationItem.leftBarButtonItem = leftButton
+    }
+    
+    func setRightButton(image: UIImage) {
+        let icon = image.withRenderingMode(.alwaysOriginal)
+        let rightButton = UIBarButtonItem.init(image: icon, style: .plain, target: self, action: #selector(self.rightButtonHandle))
+        rightButton.width = 50
+        self.navigationItem.rightBarButtonItem = rightButton
+    }
+    
+    @objc func rightButtonHandle(){
+        
+    }
+    
+    @objc func leftButtonHandle(){
+        
+    }
+    //Hides current viewcontroller
+    @objc func dismissSelf() {
+        if self.navigationController?.viewControllers.first == self {
+            self.dismiss(animated: true)
+        } else {
+            // self.dismiss(animated: true, completion: nil)
+            self.navigationController?.popViewController(animated: true)
+        }
+    }
 }
