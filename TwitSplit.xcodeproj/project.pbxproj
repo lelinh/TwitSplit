@@ -107,7 +107,6 @@
 				05B6BF1C207E441B002C4730 /* NSObjectExtension.swift */,
 				0519CD8F207E66340098DD3B /* NSDateExtension.swift */,
 				0542A6D2207E8ECF003DB672 /* UserDefaultsUlities.swift */,
-				0542A6D6207F1E40003DB672 /* TwitterSplitMessage.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -198,6 +197,7 @@
 		05B47789207BC88900801E1C /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				0542A6D6207F1E40003DB672 /* TwitterSplitMessage.swift */,
 				05B4778A207BC89300801E1C /* Models */,
 			);
 			path = Core;
